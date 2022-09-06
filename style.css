@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+
+}
+.header-hero{
+    /* position: relative; */
+    margin-bottom: 100px;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 100px ;
+
+}
+
+.nav{}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#25282B;
+    font-weight: 600;
+}
+.hero-section{
+    display: flex;
+    /* background-color: red; */
+}
+.hero-left{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-mini-title{
+    text-transform: uppercase;
+    color: #FDC435;
+    font-size: 16px;
+}
+.hero-title{
+    font-size: 34px;
+}
+    
+
+.hero-text{
+    width: 60%;
+    line-height: 26px;
+}
+
+.hero-btn-1{
+    border: none;
+    background-color: #FDC435;
+border-radius: 10px;
+padding: 10px 30px;
+cursor: pointer;
+}
+.hero-btn-2{
+    border: none;
+    background-color: white;
+border: 2px solid #25282B;
+padding: 10px 30px;
+border-radius: 10px;
+margin-left: 15px;
+cursor: pointer;
+
+}
+
+.hero-image{
+    margin: auto;
+    width:30%;
+    transform: translate(-1%, -14%);
+    z-index: -1;
+}
+.project{
+
+}
+
+.project-title{
+    margin: auto;
+    width: 10px;
+
+}
+.project-box{
+margin: 40px  auto 30px auto;
+display: flex;
+gap: 16px;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+width: 650px;
+
+box-shadow: 0px 6px 64px rgba(112, 144, 176, 0.1);
+/* border-radius: 24px; */
+}
+
+.project-middle{
+padding: 40px;
+/* justify-items: end; */
+    
+
+}
+.project-name{
+    font-size: 20px;
+    font-weight: 700;
+
+    
+}
+
+.project-text{
+    padding-top: 16px;
+color: #828282;
+font-size: 18px;
+
+}
+
+.project-btn{
+    margin-top: 15px;
+    width: 170px;
+    font-family: 'Robot';
+    line-height: 150%;
+    font-weight: 500;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #25282B;
+    background:none ;
+
+}
+
+.project-image{
+  width: 280px; 
+  height: 250px; 
+border-bottom-right-radius: 24px;
+border-top-right-radius: 24px;
+
+}
+
+.project-box:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.project-box:nth-child(3) .project-image{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    grid-row: 1/1;
+    grid-column: 1/1;
+    height: 100%;
+
+}
